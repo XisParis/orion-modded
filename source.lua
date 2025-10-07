@@ -650,9 +650,10 @@ function OrionLib:MakeWindow(WindowConfig)
 		MainWindow.Visible = false
 		UIHidden = true
 		OrionLib:MakeNotification({
-			Name = "Interface Fechada 🥀",
-			Content = "Aperte Shift Direto pra re-abrir a interface",
-			Time = 4
+			Name = "Interface Fechada 🤡",
+			Content = "Aperte Shift Direito pra re-abrir a Interface",
+			Time = 4,
+            Image = "rbxassetid://10039661990"
 		})
 		WindowConfig.CloseCallback()
 	end)
