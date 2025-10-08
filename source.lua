@@ -1,4 +1,6 @@
-
+--[[
+Apesar deste código ser aberto, não utilize-o no seu script, pois é modded e pode resultar em mal funcionamento ou créditos indevidos, dentro do seu script. 💎
+]]
 
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
