@@ -456,9 +456,10 @@ function OrionLib:Init()
 			if isfile(OrionLib.Folder .. "/" .. game.GameId .. ".txt") then
 				LoadCfg(readfile(OrionLib.Folder .. "/" .. game.GameId .. ".txt"))
 				OrionLib:MakeNotification({
-					Name = "Configuration",
-					Content = "Auto-loaded configuration for the game " .. game.GameId .. ".",
-					Time = 5
+					Name = "Configuração ",
+					Content = "Auto-carregado configuração ❤️‍🔥",
+                    Image = "rbxassetid://10039661990",
+					Time = 4
 				})
 			end
 		end)		
